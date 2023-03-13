@@ -5,19 +5,19 @@
 const errorCode = 0;
 
 switch (errorCode) {
-    case '0':
-        console.log("Geen watertoever");
+    case 0:
+        console.log("Geen watertoevoer");
         break;
-    case '1':
+    case 1:
         console.log("Temperatuur te laag");
         break;
-    case '2':
+    case 2:
         console.log("Koffiebonen op");
         break;
-    case '3':
+    case 3:
         console.log("Afvalbak vol");
         break;
-    case '4':
+    case 4:
         console.log("Geen druk");
         break;
 }
