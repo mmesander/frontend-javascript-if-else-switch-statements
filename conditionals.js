@@ -45,4 +45,12 @@ if (grade > 8) {
 // ==========================================
 
 const isRaining = false;
-const temperature = 23;
+const temperature = 11;
+
+if (!isRaining && temperature > 21) {
+    console.log("Je kunt een korte broek aan!")
+}
+
+if (isRaining || temperature < 12) {
+    console.log("Doe een jas aan!")
+}
